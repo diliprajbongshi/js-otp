@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.opt_box_id{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.otp_box_list .otp_box{
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px teal;
+    border: none;
+    border-radius:5px ;
+}
+.success{
+    color: green;
+    border: 1px solid green;
+    padding: 5px;
+}
+.fail{
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+} 
